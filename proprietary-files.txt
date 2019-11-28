@@ -433,7 +433,6 @@ vendor/firmware/ipa_uc.mdt
 
 # IRQ balance
 vendor/bin/msm_irqbalance
-vendor/etc/msm_irqbalance.conf
 
 # Keymaster - from LA.UM.9.12.r1-10800-SMxx50.0
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti|ba4ef74d97d62ef9339347c57a0ec71bec267fb6
