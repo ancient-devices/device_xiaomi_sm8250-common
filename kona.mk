@@ -171,6 +171,7 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service \
     libdisplayconfig.qti \
     libdisplayconfig.qti.vendor \
+    gralloc.kona \
     libqdMetaData \
     libsdmcore \
     libsdmutils \
