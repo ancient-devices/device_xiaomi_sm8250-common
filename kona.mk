@@ -168,6 +168,9 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
+# Call deleteAllKeys if vold detects a factory reset
+PRODUCT_VENDOR_PROPERTIES += ro.crypto.metadata_init_delete_all_keys.enabled=true
+
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
