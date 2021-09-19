@@ -46,7 +46,7 @@ on init
     start logd
     chown system system /proc/last_kmsg
     # report max frequency to unity tasks.
-    write /proc/sys/kernel/sched_lib_name "UnityMain,libunity.so"
+    write /proc/sys/kernel/sched_lib_name "com.miHoYo.,UnityMain,libunity.so"
     write /proc/sys/kernel/sched_lib_mask_force 255
 
 on early-fs
