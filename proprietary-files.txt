@@ -11,19 +11,19 @@ vendor/lib64/libadsprpc.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so
 
-# Audio
-vendor/lib/libacdb-fts.so
-vendor/lib/libacdbloader.so
-vendor/lib/libacdbrtac.so
-vendor/lib/libadiertac.so
-vendor/lib/libadm.so
-vendor/lib/libaudcal.so
-vendor/lib/libqtigef.so
-vendor/lib/libssrec.so
+# Audio - from APOLLO V13.0.0.1.6.DEV
+vendor/lib/libacdb-fts.so|58ba780af5c7ef1db1746ec662558073ea9e89fa
+vendor/lib/libacdbloader.so|e8be0831b451d59b3d5bf3d50a031602f3586369
+vendor/lib/libacdbrtac.so|5ef044eb771bbefe9b4a8969318366870b8edc64
+vendor/lib/libadiertac.so|9aca6389da7f412752760e76200e94eed166d490
+vendor/lib/libadm.so|1954acdfa454e83054bb7d7656b8f276287f8a22
+vendor/lib/libaudcal.so|761f8ebe60f43ec95ef3c1fbb0c68a512c05a991
+vendor/lib/libqtigef.so|3fba1e7a22a0b75be6bace643aaa8ead110c1233
+vendor/lib/libssrec.so|7452f5b1758b0b64bec3b8dcd50ccc38cdb124a4
 
-# Audio FX modules
-vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libshoebox.so
+# Audio FX modules - from APOLLO V13.0.0.1.6.DEV
+vendor/lib/soundfx/libasphere.so|b2daeb875914a33575c7d7a67429f25d09d35489
+vendor/lib/soundfx/libshoebox.so|214d5fefd21c617bdfa05255fe667127b4242556
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
@@ -408,13 +408,13 @@ vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so
 
-# IO prefetcher
-vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
-vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc
-vendor/lib64/libqti-iopd-client.so
-vendor/lib64/libqti-iopd.so
-vendor/lib64/vendor.qti.hardware.iop@1.0.so
-vendor/lib64/vendor.qti.hardware.iop@2.0.so
+# IO prefetcher - from APOLLO V13.0.0.1.6.DEV
+vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|e67a8af38d16f3790e88cbe0a4fc1bd1a7834b39
+vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc|fd11367b2585702190ef2577ce2ce6fc68f3a2f8
+vendor/lib64/libqti-iopd-client.so|9f644b46e1c9cae11b6131cee099d47ff8d4e730
+vendor/lib64/libqti-iopd.so|c76e41a21717245d6a33658c0d3364fd0dc8136a
+vendor/lib64/vendor.qti.hardware.iop@1.0.so|bf5c5927d27f69e3abfe164ff94369e4e74fd608
+vendor/lib64/vendor.qti.hardware.iop@2.0.so|758b6be90634869e832d45f7f29b6979f456e1ff
 
 # IPA firmware
 vendor/etc/init/ipa_fws.rc
@@ -556,29 +556,29 @@ vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
 
-# Perf
-vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
-vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc
-vendor/etc/perf/commonresourceconfigs.xml
-vendor/etc/perf/perfboostsconfig.xml
-vendor/etc/perf/perfconfigstore.xml
-vendor/etc/perf/targetconfig.xml
-vendor/etc/perf/targetresourceconfigs.xml
-vendor/etc/powerhint.xml
-vendor/lib/libperfconfig.so
-vendor/lib/libperfgluelayer.so
-vendor/lib/libperfioctl.so
-vendor/lib/libqti-perfd-client.so
-vendor/lib/libqti-perfd.so
-vendor/lib/libqti-util.so
-vendor/lib64/liblearningmodule.so
-vendor/lib64/libmeters.so
-vendor/lib64/libperfconfig.so
-vendor/lib64/libperfgluelayer.so
-vendor/lib64/libperfioctl.so
-vendor/lib64/libqti-perfd-client.so
-vendor/lib64/libqti-perfd.so
-vendor/lib64/libqti-util.so
+# Perf - from APOLLO V13.0.0.1.6.DEV
+vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|fb397c6766948868768e8142f6255505a0fa8954
+vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc|459b4c23550a56ac545f78c6d391f3d7dd9ba45b
+vendor/etc/perf/commonresourceconfigs.xml|c03bd36054bb5d327ad12dc711b58b3f658d261c
+vendor/etc/perf/perfboostsconfig.xml|73fcbb149cc21caff4690bbfa6aabc736dc3ab51
+vendor/etc/perf/perfconfigstore.xml|b6e37ec6bb444f7866541f10b934ec27490f098f
+vendor/etc/perf/targetconfig.xml|e257a9782c8548d371c79bf224bcecdd8074eb9e
+vendor/etc/perf/targetresourceconfigs.xml|7be09ffdc8b1108b6df6673fcf5004ec7366ec88
+vendor/etc/powerhint.xml|026d5a9414ce5e34ef257306ca8fdea682f126b4
+vendor/lib/libperfconfig.so|537c5677f965b6c652729c2a1287700126bb811f
+vendor/lib/libperfgluelayer.so|ed207c49a4be05f81f9e51d38d62de3b6674a999
+vendor/lib/libperfioctl.so|00164c19fa1dbf534f15b0a8bc2fc8d3a11ee2fb
+vendor/lib/libqti-perfd-client.so|dd774ed25b6923b6e20668be8810f7042bb6e896
+vendor/lib/libqti-perfd.so|3841ead348eab5b80d12993e03aa0972204adc0b
+vendor/lib/libqti-util.so|78bbb596a789f9de82d0fd8cd9ad400952a8581e
+vendor/lib64/liblearningmodule.so|53993f9ff6a3db692f7b843ec6e9f2950c536389
+vendor/lib64/libmeters.so|1a683dfc2665bac538fc64889cbadf4b9f113377
+vendor/lib64/libperfconfig.so|747540c6c355c1a71075191e3ca4b21cc142570d
+vendor/lib64/libperfgluelayer.so|d0728bb222a3a1d1f174505f54196548a0aa0d17
+vendor/lib64/libperfioctl.so|498c3bea17bfa6f98fb6ba4c279bb151a139415d
+vendor/lib64/libqti-perfd-client.so|3b2252c11de4925dd08b699d4f2d59b458e82624
+vendor/lib64/libqti-perfd.so|f02d3e8c3d11d369142fd4f08f5b6d8c8dfc3e77
+vendor/lib64/libqti-util.so|c5e5d4f591c0cf8c658d4f4573808e9eefabf158
 
 # Power-off alarm
 -product/app/PowerOffAlarm/PowerOffAlarm.apk
