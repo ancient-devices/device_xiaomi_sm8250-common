@@ -280,6 +280,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.xiaomi_kona
 
+# LibXML2
+PRODUCT_PACKAGES += \
+    libxml2 \
+    libxml2.vendor
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
